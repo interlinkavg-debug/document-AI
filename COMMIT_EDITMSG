@@ -1,0 +1,8 @@
+Improve document comparison by using temporary files for processing
+
+Refactor the document comparison logic to use temporary files for text content, addressing potential command-line length issues and enhancing robustness. Update `llm_client.py` to support file-based comparison and modify `routes.ts` to handle temporary file creation and cleanup.
+
+Replit-Commit-Author: Agent
+Replit-Commit-Session-Id: a12f2172-0762-4397-abbb-f6f7b36e3840
+Replit-Commit-Checkpoint-Type: full_checkpoint
+Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/dbc05bc6-c9c5-4adf-be4a-f085841b57a0/a12f2172-0762-4397-abbb-f6f7b36e3840/0VG8b6N
